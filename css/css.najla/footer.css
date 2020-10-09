@@ -1,0 +1,22 @@
+/* -----------------start footer-------------- */
+
+footer {
+    background-color: #1A1A1A;
+}
+
+.element-style {
+    background-color: #AA0D0D;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* -----------------end footer-------------- */

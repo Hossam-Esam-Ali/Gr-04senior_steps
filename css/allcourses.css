@@ -1,0 +1,393 @@
+body {
+  padding-top: 0px;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "font-cover";
+  src: url("../font/Vtks\ MilkShake.ttf");
+}
+
+@font-face {
+  src: url('../font/Aulidah.otf');
+  font-family: z;
+}
+::selection {
+  background-color: #c20000
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #AA0D0D;
+  border: 9px none #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c20000;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #dad8d8;
+  border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #dad8d8;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #e9e4e4;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* start navbar */
+
+.navbar {
+  background-color: rgba(206, 203, 203, 0.6) !important;
+  padding: 0px;
+  transition: 1s;
+}
+
+.class-nav {
+  background-color: white!important;
+  border-bottom: 1px solid #AA0D0D;
+  transition: all 0.7s linear;
+  padding: 0px 20px;
+}
+
+.navbar .navbar-brand {
+  width: 74%;
+}
+
+.nav-brand {
+  width: 190px;
+  height: 11%;
+  margin-left: 20px;
+}
+
+.navbar-brand img {
+  background-color: transparent;
+}
+
+.navbar .nav-link {
+  width: 109px;
+  text-align: center;
+  padding: 23px 0px;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+  color: white !important;
+}
+
+.hvr-radial-out {
+  background-color: transparent;
+}
+
+.hvr-radial-out:before {
+  background-color: #AA0D0D;
+}
+
+.nav-link22 {
+  color: #AA0D0D !important;
+}
+
+.navbar .navbar-toggler {
+  border: #AA0D0D 2px solid;
+  border-radius: 50%;
+  outline: none;
+}
+
+.navbar button span {
+  color: #AA0D0D !important;
+}
+
+/* end navbar */
+
+/* ------------------------start cover ------------------------------ */
+
+.container-cover>.row>.col {
+  position: relative;
+}
+
+.container-cover>.row>.col>.img-fluid {
+  height: 600px;
+  width: 100%;
+}
+
+.container-cover>.row>.col::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #AA0D0D;
+  opacity: .3;
+}
+
+.paragraph-cover {
+  position: absolute;
+  top: 50%;
+  color: whitesmoke;
+  font-size: 60px;
+  /* font-weight: bolder; */
+  /* margin-left: auto; */
+  font-family: font-cover;
+}
+
+/* end cover*/
+
+/* -------------start section courses------ */
+
+.course1 {
+  padding: 100px 0px;
+}
+
+.course1 span {
+  color: #AA0D0D;
+}
+
+.course1 h2 {
+  font-weight: bold;
+}
+
+.course1 .bor1 {
+  width: 400px;
+  border-bottom: #AA0D0D 1px solid;
+}
+
+.course1 .bor2 {
+  width: 300px;
+  border-bottom: #AA0D0D 1px solid;
+  margin-top: 5px;
+}
+
+.course1 .bor3 {
+  width: 200px;
+  border-bottom: #AA0D0D 1px solid;
+  margin-top: 5px;
+}
+
+.course1 .bodyy .h5 {
+  color: #AA0D0D;
+  font-style: italic;
+  font-size: 23px;
+}
+
+.course1 .bodyy p {
+  color: rgb(92, 91, 91);
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.course1 .bodyy i {
+  color: #AA0D0D;
+}
+
+.course1 .course-img .img1 {
+  width: 65%;
+  border: 2px solid #AA0D0D;
+  position: relative;
+  left: 140px;
+  z-index: 99;
+}
+
+.course1 .course-img .img2 {
+  width: 55%;
+  height: 55%;
+  border: 2px solid #AA0D0D;
+  position: relative;
+  top: -30px;
+}
+
+.course2 .course-img .img1 {
+  width: 65%;
+  border: 2px solid #AA0D0D;
+  position: relative;
+  z-index: 99;
+  left: 0px;
+  top: 20px;
+}
+
+.course2 .course-img .img2 {
+  width: 55%;
+  height:55%;
+  border: 2px solid #AA0D0D;
+  position: relative;
+  top: -20px;
+  left: 140px;
+}
+
+.course1 button{
+  border: 1px;
+  background-color: #AA0D0D;
+  color: white;
+  padding:10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: 0.7s;
+}
+.course1 button:hover{
+  background-color: #b12626;
+}
+.course1 a{
+  color: white;
+  text-decoration: none;
+  padding: 10px 17px;
+}
+/* -------------end section courses------ */
+
+/* -----------start section why-sen------------ */
+.why-sen{
+  background: url("../img/red-gradient-triangle-pattern-vector.jpg") center center no-repeat fixed;
+  background-size: 100% 100%;
+  width: 100%;
+
+  padding: 40px 0px; 
+  margin-top: 100px;
+}
+
+.why-sen h1{
+  color: white;
+}
+.why-sen p{
+  color: whitesmoke;
+  font-size: 18px;
+  line-height: 34px;
+  padding: 20px 0px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.why-sen img{
+  width: 100%;
+  border-radius: 8px;
+}
+/* -----------end section why-sen------------ */
+
+/* -------------------start other-courses----------- */
+.other-courses{
+  padding: 100px 0px;
+}
+.other-courses h1{
+  color: #AA0D0D;
+  font-family: z;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.other-courses .card{
+  border-radius: 10px;
+  transition: 0.8s;
+  overflow: hidden;
+}
+.other-courses .card img{
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.other-courses .wall{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(165, 26, 26 ,0.6);
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform: translateY(-260px);
+  transition: 1s;
+}
+.other-courses .card button{
+  position: absolute;
+  z-index: 22;
+  left: 33%;
+  top: 27%;
+  border: 1px;
+  border-radius: 20px;
+  background: white;
+  padding: 12px 0px;
+  transition: 0.8s;
+  transform: translateY(-190px);
+}
+.other-courses .card button a{
+  color: black;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.7s;
+}
+/* .other-courses .card .course-trn{
+  position: absolute;
+  top: -50px;
+} */
+.other-courses .card .card-trn{
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}
+.other-courses .card i{
+  color: #AA0D0D;
+}
+.other-courses .card .course-time{
+  border-top: 1px solid black;
+  padding: 8px 21px;
+  background-color: #eee;
+}
+.other-courses .card button:hover{
+  background-color: #AA0D0D;
+}
+.other-courses .card button:hover a{
+  color: white;
+}
+.other-courses .card:hover{
+  background-color:rgb(165, 26, 26 ,0.2) ;
+  box-shadow: 3px 3px 30px rgb(165, 26, 26 ,0.5);
+}
+.other-courses .card:hover .wall{
+  transform: translateY(0px);
+}
+.other-courses .card:hover button{
+  transform: translateY(0px);
+}
+/* -------------------end other-courses----------- */
+
+/* -----------------start footer-------------- */
+footer{
+  background-color: #1A1A1A;
+}
+.element-style{
+  background-color: #AA0D0D;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: white;
+}
+.align-items-center i{
+  transition: 0.8s;
+}
+.align-items-center i:hover{
+  color: black !important;
+}
+/* -----------------end footer-------------- */

@@ -1,0 +1,488 @@
+/*...start bg about event ...*/
+
+#home {
+    height: 100vh;
+    position: relative;
+}
+
+.section-bg {
+    background-image: url('../../img/img-najla/new_statesman_events.jpg');
+    filter: brightness(30%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-size: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+}
+
+#home .home-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.home-content h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 43px;
+    font-family: Poppins, sans-serif;
+    margin: 0px 0px 15px;
+}
+
+.home-content h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.main-btn {
+    display: inline-block;
+    background-color: rgb(247, 60, 60);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 14px 50px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(134, 10, 10);
+}
+
+
+/* .......Start the counterdown time..... */
+
+#counter li {
+    display: inline-block;
+    /* font-size: 1.5em; */
+    font-size: 12px;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(146, 34, 14);
+    background-color: whitesmoke;
+    border: 0px solid whitesmoke;
+    /* border-radius: 5px 5px 5px 5px; */
+    border-radius: 45%;
+    margin: 10px;
+    width: 90px;
+}
+
+#counter li span {
+    display: block;
+    font-size: 3rem;
+}
+
+.bg-next-container {
+    background: rgb(23, 22, 23);
+    background: linear-gradient(236deg, rgba(23, 22, 23, 0.8494748241093313) 100%, rgba(106, 94, 94, 1) 100%, rgba(60, 58, 57, 0.5245448521205357) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+
+/* .......End the counterdown time.... */
+
+
+/* .....start about event.... */
+
+.section-title .title {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 45px;
+    overflow: hidden;
+}
+
+.fade-in {
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.fade-in:hover {
+    opacity: 50%;
+    transition: opacity 0.8s
+}
+
+
+/* ......End About Event.... */
+
+.owl-carousel .item {
+    margin: 3px;
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-dots {
+    position: relative;
+    left: 0;
+    right: 0;
+    /* bottom: auto; */
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: none;
+    width: 30px;
+    height: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #770606 !important;
+    outline: none;
+}
+
+.owl-carousel button.owl-dot {
+    outline: none !important;
+    /* margin-top: 0; */
+}
+
+.owl-carousel .owl-nav {
+    display: none;
+}
+
+
+/*......Start video aboutevent.....*/
+
+.sec-video {
+    position: relative;
+}
+
+.bg-video {
+    background-image: url('../../img/img-najla/speaker.jpg');
+    background-attachment: fixed;
+    filter: brightness(30%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    z-index: -1;
+}
+
+.video-play {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    background: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 120px;
+    font-size: 42px;
+    color: #770606;
+    cursor: pointer;
+}
+
+.video-play:hover {
+    text-decoration: none;
+    background-color: #FFF;
+    color: #8a4646;
+}
+
+.p-form {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    margin: 10px 10px;
+}
+
+.h2-form {
+    font-size: 42px;
+    color: #FFF;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+}
+
+
+/*......End video about event.....*/
+
+
+/*......start scheduel event......*/
+
+.event {
+    position: relative;
+}
+
+.event::before {
+    content: "";
+    position: absolute;
+    left: 34px;
+    height: 210px;
+    top: 10px;
+    width: 4px;
+    background-color: #770606;
+}
+
+.event .event-hour {
+    position: absolute;
+    left: 35px;
+    top: 210px;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    background: #770606;
+    z-index: 10;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.event-day {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #770606;
+    text-align: center;
+}
+
+.event-day .day {
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.event-day .year {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.event .event-time {
+    font-size: 14px;
+}
+
+.event .event-time,
+.event .event-title,
+.event p {
+    padding-left: 40px;
+}
+
+.event .event-time i {
+    color: #770606;
+}
+
+.event-content a {
+    color: #770606;
+    text-decoration: none;
+}
+
+.event-content a:hover {
+    color: #200303;
+    text-decoration: none;
+}
+
+
+/*........end scheduel event.....*/
+
+
+/*......Start our speakers.....*/
+
+.img-wrapper {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 180%;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .3);
+    z-index: 1;
+    transform: skew(45deg);
+    transition: .5s;
+}
+
+
+/* .img-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transform: skew(45deg);
+} */
+
+.img-wrapper:hover:before {
+    left: -180%;
+}
+
+.img-wrapper img {
+    height: 400px;
+    width: 300px;
+    transition: 2s;
+}
+
+.img-wrapper:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.img-wrapper h2 {
+    background: #770606;
+    font-family: Poppins;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: right;
+}
+
+.img-wrapper:hover h2 {
+    transform: perspective(400px) rotateY(0deg);
+}
+
+.img-wrapper ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
+.img-wrapper ul li {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    transform: perspective(800px) rotateY(90deg);
+    transition: .5s;
+    transform-origin: left;
+}
+
+.img-wrapper:hover ul li {
+    transform: perspective(800px) rotateY(0deg);
+}
+
+.img-wrapper ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+.img-wrapper ul li {
+    background: #333;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    transform: perspective(800px) rotateY(90deg);
+    transition: .5s;
+    transform-origin: left;
+}
+
+.img-wrapper:hover ul li {
+    transform: perspective(800px) rotateY(0deg);
+}
+
+.img-wrapper:hover ul li:nth-child(1) {
+    transition-delay: .2s;
+}
+
+.img-wrapper:hover ul li:nth-child(2) {
+    transition-delay: .6s;
+}
+
+.img-wrapper:hover ul li:nth-child(3) {
+    transition-delay: .8s;
+}
+
+.img-wrapper:hover ul li:nth-child(4) {
+    transition-delay: 1s;
+}
+
+.img-wrapper ul li a {
+    color: #770606;
+    background: rgba(255, 255, 255, 0);
+}
+
+.img-wrapper ul li i {
+    color: #770606;
+    background: rgba(255, 255, 255, 0);
+}
+
+.img-wrapper ul li i:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+}
+
+
+/*.....End our speakers.....*/
+
+
+/*......Start our sponsors.....*/
+
+@font-face {
+    src: url('../../font/fonts-najla/roboto-condensed/RobotoCondensed-Bold.ttf');
+    font-family: poppin;
+}
+
+.sponsor-heading-title h4 {
+    font-family: poppin;
+    font-weight: 400;
+    margin: 10px auto;
+    color: black;
+    font-size: 30px;
+    display: grid;
+    width: 50%;
+    align-items: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+}
+
+.sponsor-heading-title h4:after,
+.sponsor-heading-title h4:before {
+    content: '';
+    border-top: 4px solid #770606;
+}
+
+.sponsor {
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    transition: 0.2s opacity;
+}
+
+.sponsor a {
+    text-decoration: none;
+}
+
+.sponsor:hover {
+    display: block;
+    opacity: 1;
+}

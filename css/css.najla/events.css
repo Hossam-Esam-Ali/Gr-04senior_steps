@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url('../../font/fonts-najla/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf');
+    font-family: angilla-font;
+}
+
+.section-title .title {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 45px;
+    overflow: hidden;
+}
+
+
+/* ...start next event */
+
+.bg-con {
+    position: relative;
+    z-index: 1;
+    background: url('../../img/img-najla/red-gradient-background.jpg') center center no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#nextevent h4 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #FFF;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+#nextevent p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #d5d5d5;
+}
+
+#nextevent a {
+    background: black;
+    font-size: 14px;
+    color: #FFF;
+    padding: 13px 32px;
+    display: inline-block;
+}
+
+#nextevent a:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: black;
+}
+
+#nextevent h4 {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+}
+
+#nextevent p {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+}
+
+#nextevent a {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease, -webkit-transform .6s ease;
+}
+
+#nextevent h4,
+#nextevent p,
+#nextevent a {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+@-webkit-keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+
+
+/* ...End next event */
+
+
+/* .......Start the counterdown time..... */
+
+#counter li {
+    display: inline-block;
+    /* font-size: 1.5em; */
+    font-size: 12px;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(146, 34, 14);
+    background-color: whitesmoke;
+    border: 0px solid whitesmoke;
+    border-radius: 45%;
+    margin: 10px;
+    width: 90px;
+}
+
+#counter li span {
+    display: block;
+    font-size: 3rem;
+}
+
+.bg-next-container {
+    background: rgb(23, 22, 23);
+    background: linear-gradient(236deg, rgba(23, 22, 23, 0.8494748241093313) 100%, rgba(106, 94, 94, 1) 100%, rgba(60, 58, 57, 0.5245448521205357) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+
+/* .......End the counterdown time.... */
+
+
+/* ....start owl caresoul  all events */
+
+#owl-example .item {
+    box-shadow: -1px 1px 6px 4px rgba(235, 235, 235, 1);
+    /* padding: 10px; */
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+}
+
+#owl-example .item img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.media-post {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+    color: black;
+    font-family: angilla-font;
+}
+
+li i {
+    color: rgb(143, 12, 12);
+    font-size: 13px;
+}
+
+h5 a,
+a.btn-link {
+    color: rgb(143, 12, 12);
+    text-decoration: none;
+    font-family: angilla-font;
+}
+
+h5 a:hover,
+a.btn-link:hover {
+    color: rgb(255, 7, 7);
+    text-decoration: none;
+}
+
+#owl-example .item {
+    margin: 3px;
+}
+
+#owl-example .item img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.owl-dots {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: none;
+    width: 30px;
+    height: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #770606 !important;
+    outline: none;
+}
+
+.owl-carousel button.owl-dot {
+    outline: none !important;
+}
+
+.card {
+    box-shadow: -1px 1px 6px 4px rgba(235, 235, 235, 1);
+}
+
+
+/* ....End owl caresoul all events  */
+
+
+/* ...start owl carsouel expired events... */
+
+#owl-demo .item {
+    box-shadow: -1px 1px 6px 4px rgba(235, 235, 235, 1);
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+}
+
+#owl-demo .item img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+#owl-demo .item {
+    margin: 3px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+#owl-demo .item .card:hover {
+    background: linear-gradient(90deg, rgb(245, 249, 250) 0%, rgb(233, 232, 232) 100%);
+}
+
+
+/* ...End owl carsouel expired events... */
+
+
+/* ...start happenning events events... */
+
+.card-happen img {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card-happen:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.card-happen h3,
+a {
+    color: rgb(143, 12, 12);
+    text-decoration: none;
+    font-family: angilla-font;
+}
+
+.card-happen p {
+    text-decoration: none;
+    font-family: angilla-font;
+    color: black;
+}
+
+.card-happen h3:hover,
+a:hover {
+    color: rgb(255, 7, 7);
+    text-decoration: none;
+}
+
+
+/* ...End happenning events... */

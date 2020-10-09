@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+        <div class="container">
+            <a class="navbar-brand"><img class="nav-brand" src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white hvr-radial-out" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white hvr-radial-out" href="other-pages/Allcourses.html">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white hvr-radial-out" href="other-pages/Aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white hvr-radial-out" href="other-pages/events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white hvr-radial-out" href="other-pages/Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white hvr-radial-out" href="other-pages/contact us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <i class="fas fa-arrow-alt-circle-up fa-3x up-to"></i>
+
+    <!-- ------------------START  carousel------------ -->
+    <div class="col-12 p-0" data-aos="fade-up" data-aos-duration="1000">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleFade" data-slide-to="0" class="active carousel-icon"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="1" class="carousel-icon"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="2" class="carousel-icon"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="3" class="carousel-icon"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/2.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Full Stack Course</h5>
+                        <p>You Will Learn 4 Course in 1 About Webdeveloper</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pexels-photo-1181244.jpeg" class="d-block w-100" alt="...">
+
+
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>React Developer</h5>
+                        <p>You Will Learn All About Android</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pexels-photo-270404.jpeg" class="d-block w-100" alt="...">
+
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>
+                            Andriod Developer</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img src="img/startup-photos.jpg" class="d-block w-100" alt="...">
+                    <!-- <div class="carousel-caption d-none d-md-block">
+                        <h5>Angular Development</h5>
+                        <p>After Learn Some Programing Language You Can Make WebSite</p>
+                    </div> -->
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- ------------------END  carousel------------ -->
+
+
+    <!-- ------------------START  search filter------------ -->
+
+    <section class="search" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>
+                        Find Your Course
+                    </h2>
+                </div>
+                <div class="col-md-4 col-6 mt-2">
+                    <h5>
+                        Courses:
+                    </h5>
+                    <input type="text" class="auto-complete" placeholder="Enter Your Course">
+                </div>
+
+                <div class="col-md-3 col-6 mt-2">
+                    <h5>
+                        Check-in:
+                    </h5>
+                    <input type="date" placeholder="Enter Your Course">
+                </div>
+
+                <div class="col-md-3 col-6 mt-2">
+                    <h5>
+                        Check-out:
+                    </h5>
+                    <input type="date" placeholder="Enter Your Course">
+                </div>
+
+                <div class="col-md-2 col-6 mt-2 text-center">
+                    <button><a href="other-pages/search.html">Search</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------END  search filter------------ -->
+
+    <!-- ------------------START  slider------------ -->
+
+    <section class="slider" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <h1 class="text-center">
+                Skills And Develop Your Abilities
+            </h1>
+            <div class="owl-carousel owl-theme sliderr">
+                <div class="item">
+                    <img src="img/5.jpg" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                2000$
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h4 class="real-price">
+                                2300$
+                            </h4>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>
+                                Android Camp 3*1
+                            </h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nihil eum sed mollitia
+                                nisi, debitis vero error esse blanditiis, quod eum porro incidunt? Iure corporis minus
+                                labore consequatur reiciendis!
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <h6>
+                                this course will start 20/9/2020 in Nasr City Branch
+                            </h6>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="a"><a href="other-pages/coursedetailsAndroid.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/6.jpg" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                2500$
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h4 class="real-price">
+                                2800$
+                            </h4>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>
+                                Front End Course 4*1
+                            </h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nihil eum sed mollitia
+                                nisi, debitis vero error esse blanditiis, quod eum porro incidunt? Iure corporis minus
+                                labore consequatur reiciendis!
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <h6>
+                                this course will start 20/10/2020 in Nasr City Branch
+                            </h6>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="a"><a href="other-pages/coursedetails.web.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/7.jpg" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                1800$
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h4 class="real-price">
+                                2000$
+                            </h4>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>
+                                Back End Course
+                            </h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nihil eum sed mollitia
+                                nisi, debitis vero error esse blanditiis, quod eum porro incidunt? Iure corporis minus
+                                labore consequatur reiciendis!
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <h6>
+                                this course will start 20/9/2020 in 6 Ocrober Branch
+                            </h6>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="a"><a href="other-pages/coursedetails.web.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/8.jpg" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                1500$
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h4 class="real-price">
+                                2000$
+                            </h4>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>
+                                Angular
+                            </h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nihil eum sed mollitia
+                                nisi, debitis vero error esse blanditiis, quod eum porro incidunt? Iure corporis minus
+                                labore consequatur reiciendis!
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <h6>
+                                this course will start 10/9/2020 in Nasr City Branch
+                            </h6>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="a"><a href="other-pages/coursedetails.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/9.jpg" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                3000$
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h4 class="real-price">
+                                3300$
+                            </h4>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>
+                                Sestem adminstration
+                            </h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nihil eum sed mollitia
+                                nisi, debitis vero error esse blanditiis, quod eum porro incidunt? Iure corporis minus
+                                labore consequatur reiciendis!
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <h6>
+                                this course will start 20/10/2020 in 6 October Branch
+                            </h6>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="a"><a href="other-pages/coursedetails.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/10.jpg" alt="">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>
+                                2000$
+                            </h4>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h4 class="real-price">
+                                2200$
+                            </h4>
+                        </div>
+
+                        <div class="col-12">
+                            <h3>
+                                Networking
+                            </h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius nihil eum sed mollitia
+                                nisi, debitis vero error esse blanditiis, quod eum porro incidunt? Iure corporis minus
+                                labore consequatur reiciendis!
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <h6>
+                                this course will start 5/9/2020 in Nasr City Branch
+                            </h6>
+                        </div>
+
+                        <div class="col-12 ">
+                            <button class="a"><a href="other-pages/coursedetails.web.html">Learn More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------END  slider------------ -->
+
+
+
+    <!-- ------------------START other-courses------------ -->
+
+
+    <section class="other-courses">
+        <div class="container">
+            <h1 class="text-center">
+                Our Services
+            </h1>
+            <div class="row">
+                <div class="col-md-3 col-12 mt-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="img/11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Individual Training</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+                                reprehenderit ipsum accusamus ipsa maiores,</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 mt-5" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="img/12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Companie Training</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+                                reprehenderit ipsum accusamus ipsa maiores,</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 mt-5" data-aos="fade-up" data-aos-duration="1400">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="img/13.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Projects Traiining</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+                                reprehenderit ipsum accusamus ipsa maiores,</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 mt-5" data-aos="fade-up" data-aos-duration="1600">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="img/14.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Junioors Training</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+                                reprehenderit ipsum accusamus ipsa maiores,</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------END other-courses------------ -->
+
+
+
+    <!-- --------modals------------ -->
+    <!-- Modal 1-->
+    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Individual Training</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <img src="img/15.jpg" class="w-100" alt="">
+                        </div>
+
+                        <div class="col-md-6 col-12">
+                            <h5>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, aliquid corporis?
+                                Quidem, pariatur voluptatibus non nihil similique illo dolores accusamus aliquam
+                                voluptatum, quaerat rem quisquam iusto dolorum consequuntur blanditiis! Cupiditate!
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a, vitae voluptatibus
+                                tempora magni architecto accusantium officiis, odit dicta quae officia perspiciatis
+                                adipisci. Perspiciatis assumenda ad nam nostrum tenetur fuga.
+                                </h6>
+
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Rounds</th>
+                                        <th scope="col">Days</th>
+                                        <th scope="col">Cost</th>
+                                        <th scope="col">Branch</th>
+                                        <th scope="col">Select Button</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">1- Front End Course 4*1</td>
+                                        <td>MON</td>
+                                        <td>2100 L.E</td>
+                                        <td>Nasr City</td>
+                                        <td class="text-center"><button class="btn btn-danger"><a
+                                                    href="other-pages/coursedetails.web.html">Enroll
+                                                    Now</a></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">1- Back End Course</td>
+                                        <td>SUN</td>
+
+                                        <td class="table-color">2100 L.E</td>
+                                        <td>Nasr City</td>
+                                        <td class="text-center"><button class="btn btn-danger"><a
+                                                    href="other-pages/coursedetails.web.html">Enroll
+                                                    Now</a></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back To Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------end Modals--------------- -->
+
+
+    <!-- ------------------START Our-trainers------------ -->
+
+    <section class="Our-trainers text-center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <h1>
+                Our Trainers
+            </h1>
+
+            <div class="owl-carousel owl-theme Trainers">
+                <div class="item">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="img/16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="colorr">
+                                DIRECTOR
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="img/17.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="colorr">
+                                PRODUCER
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="img/18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="colorr">
+                                ACTOR
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="img/17.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="colorr">
+                                PRODUCER
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="img/16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="colorr">
+                                DIRECTOR
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card p-3" style="width: 18rem;">
+                        <img src="img/18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h4 class="colorr">
+                                ACTOR
+                            </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------END Our-trainers------------ -->
+
+
+
+    <!-- ------------------START Success-Stories------------ -->
+    <h1 class="text-center h11">Success Stories</h1>
+    <section class="Success-Stories" data-aos="fade-up" data-aos-duration="1000">
+
+
+        <div class="container">
+            <div class="col-md-12 col-12">
+                <div class="owl-carousel owl-theme success p-1">
+                    <div class="item">
+                        <div class="col-lg-12">
+                            <div class="col-12">
+                                <h3><i class="fas fa-quote-left mr-2"></i>Lorem ipsum dolor amet consectetur adipisicing
+                                    elit. Asperiores vel veritatis corporis
+                                    ut, obcaecati eum voluptate nam cumque, dolorem alias?
+                                    Consequatur illum expedita exercitationem,<i class="fas fa-quote-right ml-2"></i>
+                                </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 mr-md-0 mr-4 mt-md-0 mt-n student">
+                                    <img src="img/16.jpg" alt="">
+                                </div>
+
+                                <div class="col-8 mr-md-0 mr-n5">
+                                    <h2>Eng Hosam</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-12">
+                            <div class="col-12">
+                                <h3><i class="fas fa-quote-left mr-2"></i>Lorem ipsum dolor amet consectetur adipisicing
+                                    elit. Asperiores vel veritatis corporis
+                                    ut, obcaecati eum voluptate nam cumque, dolorem alias?
+                                    Consequatur illum expedita exercitationem,<i class="fas fa-quote-right ml-2"></i>
+                                </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 mr-md-0 mr-4 mt-md-0 mt-n student">
+                                    <img src="img/17.jpg" alt="">
+                                </div>
+
+                                <div class="col-8 mr-md-0 mr-n5">
+                                    <h2>Eng Ismail</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-lg-12">
+                            <div class="col-12">
+                                <h3><i class="fas fa-quote-left mr-2"></i>Lorem ipsum dolor amet consectetur adipisicing
+                                    elit. Asperiores vel veritatis corporis
+                                    ut, obcaecati eum voluptate nam cumque, dolorem alias?
+                                    Consequatur illum expedita exercitationem,<i class="fas fa-quote-right ml-2"></i>
+                                </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-3 mr-md-0 mr-4 mt-md-0 mt-n student">
+                                    <img src="img/14.jpg" alt="">
+                                </div>
+
+                                <div class="col-8 mr-md-0 mr-n5">
+                                    <h2>Eng Najlaa</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ------------------END Success-Stories------------ -->
+
+
+
+    <!-- ------------------START  Our-Clients------------ -->
+    <section class="Our-Clients">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Our Clients</h2>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="img/2.png" alt="">
+                </div>
+
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="img/3.png" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 mt-md-0 mt-3" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="img/4.png" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 mt-md-0 mt-3" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="img/5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------END  Our-Clients------------ -->
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark" data-aos="fade-up" data-aos-duration="1000">
+
+        <div class="element-style">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 text-white">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a href="" class="fb-ic">
+                            <i class="fab fa-facebook-f  mr-4 text-white"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="" class="tw-ic">
+                            <i class="fab fa-twitter  mr-4 text-white"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a href="" class="gplus-ic">
+                            <i class="fab fa-google-plus-g mr-4 text-white"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a href="" class="li-ic">
+                            <i class="fab fa-linkedin-in mr-4 text-white"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a href="" class="ins-ic">
+                            <i class="fab fa-instagram  text-white"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold text-white">Senior Consulting</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. deleniti Quisquam
+                        dolores voluptas culpa,
+                        adipisicing elit.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold text-white">Products</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">HOME</a>
+                    </p>
+                    <p>
+                        <a href="#!">COURSES</a>
+                    </p>
+                    <p>
+                        <a href="#!">ABOUT US</a>
+                    </p>
+                    <p>
+                        <a href="#!">EVENTS</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold text-white">Useful links</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">CONTACT US</a>
+                    </p>
+                    <p>
+                        <a href="#!">LOCATION</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold text-white">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p class=" text-white">
+                        <i class="fas fa-home mr-3 text-white"></i> Nasr city , Makram Street</p>
+                    <p class=" text-white">
+                        <i class="fas fa-envelope mr-3 text-white"></i> SENIOR@GOOGLE.COM</p>
+                    <p class=" text-white">
+                        <i class="fas fa-phone mr-3 text-white"></i>011216152168</p>
+                    <p class=" text-white">
+                        <i class="fas fa-print mr-3 text-white"></i> 012215846515</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+@font-face {
+    src: url('../../font/fonts-najla/dancing-script/DancingScript-Bold.ttf');
+    font-family: A-dancing;
+}
+
+
+/*......... The Geometric Shapes.....*/
+/* start navbar */
+
+.navbar {
+    background-color:rgba(206, 203, 203, 0.4) !important;
+    padding: 0px !important;
+    transition: 1s;
+}
+
+.class-nav {
+    background-color: white!important;
+    border-bottom: 1px solid #AA0D0D;
+    transition: all 0.7s linear;
+    padding: 0px 20px;
+}
+
+.navbar .navbar-brand {
+    width: 74%;
+}
+
+.nav-brand {
+    width: 190px;
+    height: 11%;
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .nav-link {
+    width: 109px;
+    text-align: center;
+    padding: 23px 0px;
+    color: white  ;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+    color: white !important;
+}
+
+.hvr-radial-out {
+    background-color: transparent !important;
+}
+
+.hvr-radial-out:before {
+    background-color: #AA0D0D !important;
+}
+
+.nav-link22 {
+    color: #AA0D0D !important;
+}
+
+.navbar .navbar-toggler {
+    border: #AA0D0D 2px solid;
+    border-radius: 50%;
+    outline: none;
+}
+
+.navbar button span {
+    color: #AA0D0D !important;
+}
+
+/* end navbar */
+
+#pointer {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    background: linear-gradient(#17142b, #b82a427c);
+    text-align: center;
+    width: 150px;
+    height: 58px;
+    line-height: 66px;
+    color: white;
+    font-size: 23px;
+    font-family: A-dancing;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    position: relative;
+    border: 5px hidden #0C0102;
+    border-radius: 0px 30px 0px 0px;
+}
+
+#pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(26, 25, 25);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+#pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid linear-gradient(#17142b, #b82a428f);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+
+/* .....About Image */
+
+.about-img {
+    /* background-color: linear-gradient(#252235, #c4485d); */
+    background-color: #0C0102;
+    background-image: url('../../img/img-najla/about-senior.jpg');
+    background-size: cover;
+    background-position: left top;
+    width: 100%;
+    height: 580px;
+}
+
+
+/* the content of container */
+
+.border-img {
+    border-right: 8px solid #b82a42;
+    border-bottom: 8px solid #b82a42;
+    border-radius: 0px 22px 22px 0px;
+}
+
+.p-formatting {
+    /* background-color: rgba(29, 27, 27, 0.6); */
+    background-color: rgba(245, 245, 245, 0.103);
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container-about {
+    position: relative;
+    border-top: solid 5px #b82a42 !important;
+    margin-top: -20px;
+    /* background: linear-gradient(#252235, #c4485d) !important; */
+    background-color: #0c0102;
+    box-shadow: 1px -3px 12px -2px rgba(181, 42, 67, 1) !important;
+}

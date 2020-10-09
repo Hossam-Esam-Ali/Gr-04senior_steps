@@ -1,0 +1,466 @@
+body {
+    padding-top: 0px;
+}
+.colorr{
+    color: #AA0D0D;
+}
+::selection {
+    background-color: #c20000
+}
+
+@font-face {
+    src: url('../font/Aulidah.otf');
+    font-family: z;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #AA0D0D;
+    border: 9px none #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c20000;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background: #dad8d8;
+    border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #dad8d8;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #e9e4e4;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* start navbar */
+
+.navbar {
+    background-color:rgba(206, 203, 203, 0.7) !important;
+    padding: 0px;
+    transition: 1s;
+}
+
+.class-nav {
+    background-color: white!important;
+    border-bottom: 1px solid #AA0D0D;
+    transition: all 0.7s linear;
+    padding: 0px 20px;
+}
+
+.navbar .navbar-brand {
+    width: 74%;
+}
+
+.nav-brand {
+    width: 190px;
+    height: 11%;
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    background-color: transparent;
+}
+
+.navbar .nav-link {
+    width: 109px;
+    text-align: center;
+    padding: 23px 0px;
+    color: white ;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+    color: white !important;
+}
+
+.hvr-radial-out {
+    background-color: transparent;
+}
+
+.hvr-radial-out:before {
+    background-color: #AA0D0D;
+}
+
+.nav-link22 {
+    color: #AA0D0D !important;
+}
+
+.navbar .navbar-toggler {
+    border: #AA0D0D 2px solid;
+    border-radius: 50%;
+    outline: none;
+}
+
+.navbar button span {
+    color: #AA0D0D !important;
+}
+
+/* end navbar */
+.up-to {
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    outline: none;
+    border: none;
+    color: #AA0D0D;
+    z-index: 999;
+    background-color: white;
+    border-radius: 50%;
+}
+/* start carousel */
+.carousel img {
+    height: 650px;
+}
+
+.carousel-icon {
+    background-color: #AA0D0D !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-inner h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-inner p {
+    /* color: rgb(156, 156, 156); */
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* end carousel  */
+
+
+/* ----------search section--------------- */
+.search{
+    padding: 10px 0px;
+    background:url("../img/20.jpg") no-repeat fixed;
+    background-size: cover;
+}
+.search input{
+    width: 100%;
+    height: 50px;
+    padding:10px;
+    border: 1px solid rgb(138, 31, 31,0.7);
+    outline: none;
+}
+.search button {
+    padding: 10px 0px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #cf2626;
+    color: white;
+    font-weight: 500;
+    margin-top:34px;
+    outline: none;
+    transition: 0.5s;
+}
+.search button:hover{
+    background-color:#AA0D0D;
+}
+.search button a{
+    padding: 50px 30px !important;
+    color: white;
+    text-decoration: none;
+}
+.search button a:hover{
+    color: white;
+    text-decoration: none;
+}
+.search h2{
+    font-family:z;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 20px 0px;
+}
+.search h5{
+    color: whitesmoke;
+}
+/* ----------end search section--------------- */
+
+/* ----------------start slider section----------- */
+.slider{
+    margin:100px 0px ;
+}
+.slider h1{
+    margin-bottom: 50px;
+    color: #AA0D0D;
+    font-family: z;
+    font-weight: bold;
+}
+.slider .owl-carousel .item{
+    padding: 20px;
+}
+.borderr{border: 1px solid #AA0D0D;}
+.slider .owl-carousel img{
+    height: 250px;
+    border-radius: 4px;
+}
+.slider .owl-carousel h4{
+    color: #AA0D0D;
+    margin: 10px 0px;
+}
+.slider .owl-carousel .real-price{
+    color: rgb(148, 147, 147);
+    text-decoration: line-through;
+}
+.slider .owl-carousel h3{
+    color:black ;
+}
+.slider .owl-carousel p{
+    font-weight: 500;
+    color: #7c7b7b;
+}
+.slider .owl-carousel h6{
+    color: #AA0D0D;
+}
+.slider .owl-carousel .a{
+    border: 1px solid #AA0D0D;
+    background-color: white;
+    border-radius: 5px;
+    color: #AA0D0D;
+    font-weight: 500;
+    transition:0.7s;
+    padding: 12px 4px;
+    outline: none;
+}
+.slider .owl-carousel .a a{
+    color: #AA0D0D;
+    transition: 0.7s;
+    text-decoration: none;
+    padding: 12px ;
+}
+.slider .owl-carousel .a:hover a{color: white;}
+.slider .owl-carousel .a:hover{
+    background-color: #AA0D0D;
+    color: white;
+}
+.owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #AA0D0D;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(117, 20, 20 , 0.4);
+}
+button.owl-dot{
+    outline: none;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-top: 20px;
+}
+/* ----------------end slider section----------- */
+
+/* --------------------other-courses section-------------- */
+.other-courses{
+    margin: 100px 0px;
+}
+.other-courses h1{
+    margin-bottom: 10px;
+    color: #AA0D0D;
+    font-family: z;
+    font-weight: bold;
+}
+.other-courses .card{
+    box-shadow: 2px 2px 5px rgb(185, 183, 183);
+    transition: 1s;
+}
+.other-courses .card:hover{
+    transform: translateY(-20px);
+}
+.other-courses .card img{
+    height: 170px;
+}
+.other-courses .card h4{
+    color: #AA0D0D;
+}
+.other-courses .card p{
+    font-weight: 500;
+    color: #7c7b7b;
+}
+.other-courses .card .btn-primary{
+    background-color: #AA0D0D;
+    border-color: #AA0D0D ;
+    outline: none !important;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+.btn-danger{
+    background-color: #AA0D0D;
+}
+.btn-danger a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+/* --------------------other-courses section-------------- */
+
+
+/* start Our Trainers section */
+.Our-trainers{
+    margin:200px 0px;
+}
+.Our-trainers h1{
+    margin-bottom: 30px;
+    color: #AA0D0D;
+    font-family: z;
+    font-weight: bold;
+}
+.Our-trainers .card{
+    border: none;
+}
+/* end Our Trainers section */
+
+/* start Success-Stories section */
+
+.Success-Stories {
+    background: url("../img/19.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.Success-Stories::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, .85)
+}
+
+.h11 {
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-family: z;
+    font-size: 45px;
+    font-weight: bold;
+    color: #AA0D0D;
+}
+.Success-Stories .item {
+    width:100%;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(243, 240, 240,0.3);
+    border-radius: 70px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #AA0D0D ;
+}
+.Success-Stories h3{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.Success-Stories .owl-carousel h2{
+    text-align: center;
+    font-family: x;
+    color: rgb(207, 207, 207);
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.student img{
+    border-radius: 50%;
+    width: 100px !important;
+    height: 100px;
+    position: absolute;
+    top: -13px;
+    right: -67px;
+}
+/* end Success-Stories section */
+
+
+
+/* start Our Clients */
+.Our-Clients{
+    margin: 100px 0px;
+}
+.Our-Clients h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+    color:#AA0D0D;
+    font-weight: bold;
+    font-family: z;
+}
+.Our-Clients img{
+    border-radius:50px ;
+
+    height: 200px;
+    width: 200px;
+    transition: 0.8s;
+}
+.Our-Clients img:hover{
+    transform: scale(1.2,1.2);
+}
+/* end Our Clients */
+
+/* -----------------start footer-------------- */
+footer{
+    background-color: #1A1A1A;
+}
+.element-style{
+    background-color: #AA0D0D;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.align-items-center i{
+    transition: 0.8s;
+}
+.align-items-center i:hover{
+    color: black !important;
+}
+/* -----------------end footer-------------- */

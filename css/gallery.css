@@ -1,0 +1,248 @@
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "font-cover";
+    src: url("../font/Vtks\ MilkShake.ttf");
+}
+
+@font-face {
+    src: url('../font/Aulidah.otf');
+    font-family: z;
+  }
+
+.container-content{
+    margin: 50px 0 50px 0 !important;
+}
+.tex-div{
+    margin: 50px 0 !important;
+}
+
+
+
+
+/* start navbar */
+
+.navbar {
+    background-color:rgba(206, 203, 203, 0.6) !important;
+    padding: 0px;
+    transition: 1s;
+}
+
+.class-nav {
+    background-color: white!important;
+    border-bottom: 1px solid #AA0D0D;
+    transition: all 0.7s linear;
+    padding: 0px 20px;
+}
+
+.navbar .navbar-brand {
+    width: 74%;
+}
+
+.nav-brand {
+    width: 190px;
+    height: 11%;
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    background-color: transparent;
+}
+
+.navbar .nav-link {
+    width: 109px;
+    text-align: center;
+    padding: 23px 0px;
+    color: white ;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+    color: white !important;
+}
+
+.hvr-radial-out {
+    background-color: transparent;
+}
+
+.hvr-radial-out:before {
+    background-color: #AA0D0D;
+}
+
+.nav-link22 {
+    color: #AA0D0D !important;
+}
+
+.navbar .navbar-toggler {
+    border: #AA0D0D 2px solid;
+    border-radius: 50%;
+    outline: none;
+}
+
+.navbar button span {
+    color: #AA0D0D !important;
+}
+
+/* end navbar */
+
+/* start cover */
+
+
+/* ------------------------start cover ------------------------------ */
+
+
+.container-cover>.row>.col {
+    position: relative;
+}
+
+.container-cover>.row>.col>.img-fluid {
+    height: 600px;
+    width: 100%;
+}
+
+.container-cover>.row>.col::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #AA0D0D;
+    opacity: .3;
+}
+
+.paragraph-cover {
+    position: absolute;
+    top: 50%;
+    color: whitesmoke;
+    font-size: 60px;
+    /* font-weight: bolder; */
+    /* margin-left: auto; */
+    font-family: font-cover;
+}
+
+/* end cover*/
+.gallery{
+    padding: 75px 0px;
+}
+.gallery h1{
+    color: #AA0D0D;
+    font-family: z;
+    font-weight: bolder;
+    padding: 0px 0px 30px 0px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid #AA0D0D;
+    transition: 1s;
+}
+.gallery img:hover{
+    border-radius: 0%;
+    transform: scale(1.1,1.1) translateY(-15px);
+}
+
+.gallery .btnn{
+    border: 1px;
+    border-radius: 8px;
+    background-color: #AA0D0D;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+
+/* --------------start video section--------------- */
+.videoo{
+    padding: 75px 0px;
+    margin: 100px 0px;
+    background: url("../img/25.jpg") center center fixed no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+.videoo::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.videoo h1{
+    color: white;
+    font-size: 45px;
+}
+.videoo p{
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+}
+.videoo iframe{
+    width: 94% !important;    
+    position: absolute;
+    top: 20px;
+    border-radius: 15px !important;
+}
+/* --------------end video section--------------- */
+
+.ennd{
+    margin-top: 150px;
+}
+.ennd h3{
+    color: #AA0D0D;
+}
+.ennd p{
+    font-size: 18px;
+    line-height: 30px;
+    color: gray;
+}
+
+.ennd button{
+    border: 1px;
+    background-color: #AA0D0D;
+    color: white;
+    padding:10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.7s;
+}
+
+.ennd a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 17px;
+}
+
+
+/* -----------------start footer-------------- */
+footer{
+    background-color: #1A1A1A;
+}
+.element-style{
+    background-color: #AA0D0D;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.align-items-center i{
+    transition: 0.8s;
+}
+.align-items-center i:hover{
+    color: black !important;
+}
+/* -----------------end footer-------------- */

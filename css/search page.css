@@ -1,0 +1,217 @@
+
+::selection{
+    background-color: #c20000
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #AA0D0D;
+    border: 9px none #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c20000;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+
+::-webkit-scrollbar-track {
+    background: #dad8d8;
+    border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #dad8d8;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #e9e4e4;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* start navbar */
+
+.navbar {
+    background-color:rgb(255, 255, 255 , 0.6) !important;
+    padding: 0px;
+    transition: 1s;
+}
+
+.class-nav {
+    background-color: white!important;
+    border-bottom: 1px solid #AA0D0D;
+    transition: all 0.7s linear;
+    padding: 0px 20px;
+}
+
+.navbar .navbar-brand {
+    width: 74%;
+}
+
+.nav-brand {
+    width: 190px;
+    height: 11%;
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    background-color: transparent;
+}
+
+.navbar .nav-link {
+    width: 109px;
+    text-align: center;
+    padding: 23px 0px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+    color: white !important;
+}
+
+.hvr-radial-out {
+    background-color: transparent;
+}
+
+.hvr-radial-out:before {
+    background-color: #AA0D0D;
+}
+
+.nav-link22 {
+    color: #AA0D0D !important;
+}
+
+.navbar .navbar-toggler {
+    border: #AA0D0D 2px solid;
+    border-radius: 50%;
+    outline: none;
+}
+
+.navbar button span {
+    color: #AA0D0D !important;
+}
+
+/* end navbar */
+/* start img-show */
+.img-show{
+    background: url("../img/0.jpg") no-repeat center  center;
+    background-size: 100% 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+.img-show::before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .75);
+    z-index: -1;
+}
+.img-show h1{
+    color: whitesmoke;
+    position: absolute;
+    left: 39%;
+    top: 260px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* end img-show */
+
+.title{
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+.title h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.title p{
+    color: #AA0D0D;
+}
+
+/* start courses-list section */
+.courses-list h3{
+    width: 320px;
+    border-bottom: #AA0D0D 3px solid;
+}
+.courses-list i{
+    color: #AA0D0D;
+}
+.courses-list h5{color: black;
+    font-size: 17px;
+    margin-top: 9px;
+}
+.courses-list .show{
+    border-top: 1px solid rgb(184, 178, 178);
+    border-bottom: 1px solid rgb(184, 178, 178);
+    padding: 10px 0px;
+    background-color: #F2F2F2;
+}
+.courses-list .show1{
+    background-color: white;
+    border: none;
+}
+.courses-list .show img{
+    border-radius: 10px;
+    height: 150px;
+}
+.courses-list .show button{
+    background-color: #bd3f3f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.courses-list .show button:hover{
+    background-color: #AA0D0D;
+}
+.courses-list .show a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* end courses-list section */
+
+/* -----------------start footer-------------- */
+footer{
+    background-color: #1A1A1A;
+}
+.element-style{
+    background-color: #AA0D0D;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+.align-items-center i{
+    transition: 0.8s;
+}
+.align-items-center i:hover{
+    color: black !important;
+}
+/* -----------------end footer-------------- */
