@@ -217,21 +217,22 @@ div.desktop-wrapper iframe {
 
 
 /* ......End Enroll Button.... */
-
+body{
+    overflow-x: hidden;
+}
 
 /* ....Start Enrollment Details ... */
 
 .enroll-det {
-    width: 1000px;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .enroll-det .card {
     position: relative;
     cursor: pointer;
-    width: auto;
+    width: 100%;
 }
 
 .enroll-det .card .face {

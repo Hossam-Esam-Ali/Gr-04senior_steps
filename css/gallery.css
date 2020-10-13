@@ -162,7 +162,7 @@
 
 /* --------------start video section--------------- */
 .videoo{
-    padding: 75px 0px;
+    padding: 100px 0px;
     margin: 100px 0px;
     background: url("../img/25.jpg") center center fixed no-repeat;
     background-size: 100% 100%;
@@ -191,13 +191,13 @@
 .videoo iframe{
     width: 94% !important;    
     position: absolute;
-    top: 20px;
+    top: 30px;
     border-radius: 15px !important;
 }
 /* --------------end video section--------------- */
 
 .ennd{
-    margin-top: 150px;
+    margin-top: 225px;
 }
 .ennd h3{
     color: #AA0D0D;

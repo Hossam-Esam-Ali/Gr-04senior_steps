@@ -56,11 +56,11 @@ body {
 }
 
 .navbar .navbar-brand {
-    width: 84%;
+    width: 74%;
 }
 
 .nav-brand {
-    width: 200px;
+    width: 180px;
     height: 11%;
     margin-left: 20px;
 }
@@ -131,7 +131,8 @@ iframe{
 }
 
 .linee{
-    word-spacing: 1.5px;
+
+    text-align: justify;
 }
 
 .place{
@@ -172,7 +173,7 @@ iframe{
     border-radius: 20px;
     background-color:  rgb(150, 13, 13 , 0.3);
 }
-button{
+.button{
     padding: 13px 19px;
     background-color: #bd3f3f;
     color: white;
@@ -181,8 +182,9 @@ button{
     outline: none;
     margin-top: 20px;
     transition: 0.5s;
+    outline: none;
 }
-button:hover{
+.button:hover{
     background-color: #AA0D0D
 }
 /* -----------------start footer-------------- */

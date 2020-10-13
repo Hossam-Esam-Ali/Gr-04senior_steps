@@ -171,18 +171,18 @@ body {
 }
 
 .course1 .bor1 {
-  width: 400px;
+  width: 300px;
   border-bottom: #AA0D0D 1px solid;
 }
 
 .course1 .bor2 {
-  width: 300px;
+  width: 200px;
   border-bottom: #AA0D0D 1px solid;
   margin-top: 5px;
 }
 
 .course1 .bor3 {
-  width: 200px;
+  width: 100px;
   border-bottom: #AA0D0D 1px solid;
   margin-top: 5px;
 }

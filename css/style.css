@@ -407,11 +407,11 @@ button.owl-dot{
 
 .student img{
     border-radius: 50%;
-    width: 100px !important;
-    height: 100px;
+    width: 70% !important;
+    height: 110%;
     position: absolute;
-    top: -13px;
-    right: -67px;
+    top: 6px;
+    right: -52px;
 }
 /* end Success-Stories section */
 
