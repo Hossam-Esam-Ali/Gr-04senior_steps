@@ -57,7 +57,7 @@ body {
 /* start navbar */
 
 .navbar {
-    background-color:rgba(206, 203, 203, 0.7) !important;
+    background-color:rgba(255, 254, 254, 0.7) !important;
     padding: 0px;
     transition: 1s;
 }
@@ -73,6 +73,9 @@ body {
     width: 74%;
 }
 
+.nav-item a{
+    color: #AA0D0D;
+}
 .nav-brand {
     width: 190px;
     height: 11%;
@@ -87,13 +90,13 @@ body {
     width: 109px;
     text-align: center;
     padding: 23px 0px;
-    color: white ;
+    color: rgb(148, 0, 0) ;
     font-weight: 500;
     font-size: 17px;
 }
 
 .navbar .nav-link:hover {
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .hvr-radial-out {
