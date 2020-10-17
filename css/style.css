@@ -90,7 +90,7 @@ body {
     width: 109px;
     text-align: center;
     padding: 23px 0px;
-    color: rgb(148, 0, 0) ;
+    color: rgb(148, 0, 0) !important;
     font-weight: 500;
     font-size: 17px;
 }
@@ -166,8 +166,10 @@ body {
 /* ----------search section--------------- */
 .search{
     padding: 10px 0px;
-    background:url("../img/20.jpg") no-repeat fixed;
+    /* background:url("../img/red-gradient-triangle-pattern-vector.jpg") no-repeat fixed;
     background-size: cover;
+    background-position: center left; */
+    background-color: black;
 }
 .search input{
     width: 100%;
@@ -203,8 +205,8 @@ body {
     font-family:z;
     font-size: 40px;
     font-weight: bold;
-    color: whitesmoke;
-    margin: 20px 0px;
+    color: rgb(218, 197, 197);
+    margin: 10px 0px;
 }
 .search h5{
     color: whitesmoke;
@@ -351,8 +353,10 @@ button.owl-dot{
 /* start Success-Stories section */
 
 .Success-Stories {
-    background: url("../img/19.jpg") no-repeat center center fixed;
-    background-size: 100% 100%;
+    background: url("../img/19.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    
     position: relative;
     top: 50px;
     z-index: 1;
@@ -468,3 +472,32 @@ footer a:hover{
     color: black !important;
 }
 /* -----------------end footer-------------- */
+
+.imgoo{
+    background-image: url('../img/pexels-photo-1181244.jpeg');
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height: 760px;
+}
+.imgoo1{
+    background-image: url('../img/2.jpg');
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height: 760px;
+}
+.imgoo2{
+    background-image: url('../img/slider.jpg');
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height: 760px;
+}
+.imgoo3{
+    background-image: url('../img/startup-photos.jpg');
+    background-position: center top;
+    background-size: cover;
+    width:100%;
+    height: 760px;
+}
